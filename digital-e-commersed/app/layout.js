@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import {Funnel_Display} from 'next/font/google'
+import Provider from "./provider";
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +16,10 @@ export default function RootLayout({ children }) {
       <body
         className={AppFont.className}
       >
+        <Provider>
         {children}
+        </Provider>
+ 
       </body>
     </html>
   );

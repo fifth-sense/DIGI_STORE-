@@ -1,10 +1,15 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+
+import Hero from "./_components/Hero";
+import Productlist from "./_components/productlist";
 
 export default function Home() {
   return (
     <div >
-    <Button>Subscribe</Button>
+      <Hero/>
+      <div className="p-10 md:px-36 xl:px-48">
+        <Productlist/>
+      </div>
+
     </div>
   );
 }
