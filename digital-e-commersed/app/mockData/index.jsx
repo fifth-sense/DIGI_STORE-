@@ -5,7 +5,7 @@ export default  [
         price: 10,
         image: "/mobile.png",
         avatar: {
-            name: "e - commerce",
+            name: "user",
             image: '/profile.png'
         }
 
@@ -16,7 +16,7 @@ export default  [
         price: 10,
         image: "/mobile.png",
         avatar: {
-            name: "e - commerce",
+            name: "user",
             image: '/profile.png'
         }
 
@@ -27,7 +27,7 @@ export default  [
         price: 10,
         image: '/mobile.png',
         avatar: {
-            name: "e - commerce",
+            name: "user",
             image: '/profile.png'
         }
 
@@ -38,7 +38,7 @@ export default  [
         price: 10,
         image: "/mobile.png",
         avatar: {
-            name: "e - commerce",
+            name: "user",
             image: '/profile.png'
         }
 
@@ -49,7 +49,7 @@ export default  [
         price: 10,
         image: "/mobile.png",
         avatar: {
-            name: "e - commerce",
+            name: "user",
             image: '/profile.png'
         }
 
